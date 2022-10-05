@@ -1,0 +1,233 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .custom-style {
+    color: palevioletred;
+} */
+
+
+/* NAVIGATION BAR */
+.nav-bar {
+    border: 1px solid;
+    border-color: #C3C8C5;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    margin: 0 0 100px 0;
+    position: fixed;
+}
+
+#logo {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.my-buttons {
+    border: none;
+    background-color: white;
+}
+
+.my-buttons:hover {
+    cursor: pointer;
+}
+
+#down-arrow {
+    height: 7px;
+    margin-bottom: 14px;
+}
+
+#search-input {
+    height: 35px;
+    width: 250px;
+    background-color: #E3EAE6;
+    color: grey;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+
+#search-input:focus {
+    outline: none;
+    color: black;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.icons {
+    font-size: 20px;
+}
+
+.user-photo {
+    height: 25px;
+}
+
+.welcome {
+    font-size: 12px;
+}
+
+
+
+/* FEED */
+.page-body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feed-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    height: auto;
+    width: 450px;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: #C3C8C5;
+    margin-bottom: 25px;
+}
+
+/* USERNAME AND LOCATION */
+.header {
+    padding-left: 20px;
+    
+}
+
+h3 {
+    font-size: 15px;
+    margin: 10px 0 0 0;
+}
+
+.location {
+    font-size: 12px;
+    margin: 5px 0 10px 0;
+}
+
+
+/* FEED IMAGE */
+.feed-image {
+    height: 550px;
+    width: 100%;
+}
+
+
+/* EVERYTHING BELOW IMAGE DIV */
+.everything-below-image {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* LITTLE ICON BUTTONS UNDER PHOTO */
+.icon-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.buttons-left {
+    display: flex;
+    margin-left: 0;
+}
+
+.buttons-right {
+    display: block;
+    float: right;
+    margin: auto;
+    margin-right: 0;
+}
+
+.feed-icon-buttons {
+    font-size: 22px;
+}
+
+.little-buttons {
+    background-color: white;
+    border: none;
+}
+
+.little-buttons:hover {
+    cursor: pointer;
+}
+
+
+.make-pink {
+    color: #F63662;
+}
+
+/* LOGIN NAME AND PHOTO DESCRIPTION */
+.photo-description {
+    line-height: 1.3rem;
+    font-size: 14px;
+}
+
+/* COMMENTS AND HOURS AGO */
+.comment {
+    font-size: 14px;
+    color: grey;
+}
+
+.new-comment {
+    line-height: 1.3rem;
+    font-size: 14px;
+}
+
+.hours {
+    font-size: 11px;
+    color: grey;
+}
+
+/* ADD A COMMENT SECTION */
+.add-comment {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid;
+    border-color: #C3C8C5;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.smiley {
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin: auto 20px auto 20px;
+}
+
+.comment-input {
+    margin-right: 50px;
+    border: none;
+    height: 30px;
+    width: 280px;
+}
+
+.comment-input:focus {
+    outline: none;
+}
+
+.post-button {
+    border: none;
+    background-color: white;
+    color: #1B9DDE;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.post-button:hover {
+    cursor: pointer;
+}
+

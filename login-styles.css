@@ -1,0 +1,101 @@
+.box {
+    display: block;
+    border: 1px solid;
+    height: 250px;
+    width: 400px;
+    justify-content: center;
+    border-color: grey;
+    margin: 100px auto 20px auto;
+    border-radius: 4px;
+    
+}
+
+.blue-line {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color: #3f729b;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#logo {
+    height: 30px;
+}
+
+.login-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 200px;
+    height: 35px;
+    padding: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: #333534;
+    margin-right: 40px;
+}
+
+#login-button {
+    float: right;
+    width: 70px;
+    background-color: #34C38B;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+}
+
+#login-button:hover {
+    cursor: pointer;
+}
+
+.login-form a {
+    color: #3f729b;
+}
+
+
+.signup-help {
+    
+    text-align: center;
+    margin: 0 auto;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.download-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#need {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333534;
+
+}
+
+#download {
+    color: grey;
+
+}
+
+button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+}
